@@ -6,9 +6,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from rouge_score import rouge_scorer
 import matplotlib.pyplot as plt
 
-# Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
+
 
 # Function to store the positions of capitalized words
 def store_capitalization(text):
